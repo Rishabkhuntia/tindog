@@ -1,0 +1,151 @@
+#title {
+  background-color: #ff4c68;
+  font-family: 'Montserrat-black', sans-serif;
+  height: 650px;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.dog {
+  position: absolute;
+  width: 60%;
+  transform: rotate(35deg);
+}
+
+.nav-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.fas {
+  padding-left: 45%;
+  font-size: 2.5rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: red;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Montserrat-bold";
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* p{
+
+  color:#8f8f8f;
+  padding-left: 15%;
+  padding-right: 15%;
+} */
+.col-4 {
+  width: 1.5rem;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.carousal-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+}
+
+#press {
+  padding-top: 30px;
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+@media (max-width:1028px) {
+  .dog {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #features {
+    position: static;
+  }
+
+  #title {
+    height: auto;
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  color:#fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align:center;
+}
+.cta-heading{
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  padding:7% 15%;
+  text-align: center;
+}
+.footer1{
+  padding:1% 1%;
+}
